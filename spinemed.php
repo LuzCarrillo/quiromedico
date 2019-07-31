@@ -55,7 +55,7 @@
 </div>
 <div class="bg-red">
 	<div class="col-md-6 no-padding" data-aos="fade-left" data-aos-duration="1000">
-		<img class="full" src="images/hernia-antes-y-despues.jpg" alt="imagen de una hernia discal antes y despues de tratamiento.">
+		<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/hernia-antes-y-despues.jpg" alt="imagen de una hernia discal antes y despues de tratamiento.">
 	</div>
 	<div class="container">
 		<div class="col-md-6 mart-30" data-aos="fade-right" data-aos-duration="1000">
@@ -70,7 +70,7 @@
 </div>
 <div class="bg-red">
 	<div class="col-md-6 no-padding right" data-aos="fade-left" data-aos-duration="1300">
-		<img class="full" src="images/maniobra.jpg" alt="foto realizando maniobra para la espalda">
+		<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/maniobra.jpg" alt="foto realizando maniobra para la espalda">
 	</div>
 	<div class="container">
 		<div class="col-md-6 mart-30" data-aos="fade-right" data-aos-duration="1300">

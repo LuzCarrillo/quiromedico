@@ -291,7 +291,7 @@ p {
 	padding-bottom: 50px;
 	width: 100%;
 	float: left;
-	background-image: url(../images/fondo-circulos.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/fondo-circulos.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
@@ -302,7 +302,7 @@ p {
 	width: 100%;
 	background: #efefef;
 	padding: 50px 0px 70px;
-	background-image: url('../images/linea-dorada.png');
+	background-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/linea-dorada.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -368,7 +368,7 @@ p {
 	font-family: 'Gotham';
 	font-weight: 300;
 	margin-top: 50px;
-	background-image: url(../images/vertebras-espalda.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/vertebras-espalda.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
@@ -496,7 +496,7 @@ footer a:hover {
 	line-height: 0px;
 }
 .parralax-spinemed {
-	background-image: url(../images/estiramiento-columna-parralax.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/estiramiento-columna-parralax.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -524,7 +524,7 @@ footer a:hover {
 	font-size: 16px;
 }
 .back-strech {
-	background-image: url('../images/estiramiento-columna.png');
+	background-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/estiramiento-columna.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -533,7 +533,7 @@ footer a:hover {
 	display: inline-block;
 }
 .back-quiro {
-	background-image: url('../images/quiropractico.jpg');
+	background-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/quiropractico.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -542,7 +542,7 @@ footer a:hover {
 	display: inline-block;
 }
 .back-nutri {
-	background-image: url('../images/nutriologa.jpg');
+	background-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/nutriologa.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -551,7 +551,7 @@ footer a:hover {
 	display: inline-block;
 }
 .back-trauma {
-	background-image: url('../images/traumatologo.jpg');
+	background-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/traumatologo.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -573,10 +573,10 @@ footer a:hover {
 	margin: 0;
 }
 .gold-list {
-	list-style-image: url('../images/disc.png');
+	list-style-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/disc.png');
 }
 .check-list {
-	list-style-image: url('../images/gold-check.png');
+	list-style-image: url('https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/gold-check.png');
 }
 .bg-red {
 	background: #73142a;
@@ -593,32 +593,32 @@ footer a:hover {
 	justify-content: center;
 }
 .banner-spinemed {
-	background-image: url(../images/vertebra-cervical.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/vertebra-cervical.jpg);
 }
 .banner-somos {
-	background-image: url(../images/banner-somos.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-somos.jpg);
 	background-position: center bottom;
 }
 .banner-tratamientos {
-	background-image: url(../images/banner-tratamientos.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-tratamientos.jpg);
 }
 .banner-quiropractico {
-	background-image: url(../images/banner-especialistas.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-especialistas.jpg);
 }
 .banner-nutriologa {
-	background-image: url(../images/banner-especialistas.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-especialistas.jpg);
 }
 .banner-traumatologo {
-	background-image: url(../images/banner-especialistas.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-especialistas.jpg);
 }
 .banner-testimonios {
-	background-image: url(../images/banner-testimonios.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-testimonios.jpg);
 }
 .banner-contacto {
-	background-image: url(../images/banner-contacto.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-contacto.jpg);
 }
 .banner-calendario {
-	background-image: url(../images/banner-calendario.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-calendario.jpg);
 }
 .title-inteior	{
 	text-align: center;
@@ -734,7 +734,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	color: #fff;
-	background-image: url(../images/parallax-somos.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/parallax-somos.jpg);
 	background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;
@@ -752,7 +752,7 @@ a {
 	padding: 0px 35px;
 }
 .parralax-quiro {
-	background-image: url(../images/parallax-somos.jpg);
+	background-image: url(https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/parallax-somos.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;

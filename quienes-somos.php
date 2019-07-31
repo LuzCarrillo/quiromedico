@@ -21,17 +21,17 @@
 </div>
 <div class="container">
 	<div class="col-xs-12 col-md-4">
-		<img class="full" src="images/objetivo-icon.png" alt="icono de objetivo de empresa">
+		<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/objetivo-icon.png" alt="icono de objetivo de empresa">
 		<h2 class="gold text-center">OBJETIVO</h2>
 		<p>Ofrecer servicio médico y terapéutico vanguardista, que reúna a los mejores especialistas y tecnología de punta, para aliviar diversos padecimientos de la columna vertebral.</p>
 	</div>
 	<div class="col-xs-12 col-md-4">
-		<img class="full" src="images/mision-icon.png" alt="icono de mision de empresa">
+		<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/mision-icon.png" alt="icono de mision de empresa">
 		<h2 class="gold text-center">MISIÓN</h2>
 		<p>Ofrecer diversas opciones de tratamientos terapéuticos efectivos a pacientes con patologías en columna vertebral, mejorando su calidad de vida.</p>
 	</div>
 	<div class="col-xs-12 col-md-4">
-		<img class="full" src="images/vision-icon.png" alt="icono de vision de la empresa">
+		<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/vision-icon.png" alt="icono de vision de la empresa">
 		<h2 class="gold text-center">VISIÓN</h2>
 		<p>Ser el consultorio pionero en México, que brinde un servicio integral en el tratamiento de patologías lumbares y cervicales, con el objetivo de evitar cirugías y aliviar el dolor de nuestros pacientes.</p>
 	</div>

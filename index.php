@@ -11,20 +11,20 @@
 	<div class="carousel-inner">
 		<div class="item active full">
 			<a href="agenda-tu-cita.php">
-				<img class="hidden-xs hidden-sm full" src="images/banner-descuento-con-cita-online.jpg" alt="10% de descompresión en la primer cita, agendando online.">
-				<img class="visible-xs visible-sm full" src="images/banner-descuento-con-cita-online-xs.jpg" alt="10% de descompresión en la primer cita, agendando online mobile.">
+				<img class="hidden-xs hidden-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-descuento-con-cita-online.jpg" alt="10% de descompresión en la primer cita, agendando online.">
+				<img class="visible-xs visible-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-descuento-con-cita-online-xs.jpg" alt="10% de descompresión en la primer cita, agendando online mobile.">
 			</a>
 		</div>
 		<div class="item full">
 			<a href="contacto.php">
-				<img class="hidden-xs hidden-sm full" src="images/banner-contactanos.jpg" alt="Contamos con un equipo especialistas, contactanos.">
-				<img class="visible-xs visible-sm full" src="images/banner-contactanos-xs.jpg" alt="Contamos con un equipo especialistas, contactanos mobile.">
+				<img class="hidden-xs hidden-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-contactanos.jpg" alt="Contamos con un equipo especialistas, contactanos.">
+				<img class="visible-xs visible-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-contactanos-xs.jpg" alt="Contamos con un equipo especialistas, contactanos mobile.">
 			</a>
 		</div>
 		<div class="item full">
 			<a href="spinemed.php">
-				<img class="hidden-xs hidden-sm full" src="images/banner-spinemed.jpg" alt="Con SpineMED puedes evitar cirugías cervicales y lumbares.">
-				<img class="visible-xs visible-sm full" src="images/banner-spinemed-xs.jpg" alt="Con SpineMED puedes evitar cirugías cervicales y lumbares mobile.">
+				<img class="hidden-xs hidden-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-spinemed.jpg" alt="Con SpineMED puedes evitar cirugías cervicales y lumbares.">
+				<img class="visible-xs visible-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-spinemed-xs.jpg" alt="Con SpineMED puedes evitar cirugías cervicales y lumbares mobile.">
 			</a>
 		</div>
 	</div>
@@ -40,7 +40,7 @@
 <div class="container">
 	<div class="cont-spine oculto">
 		<div class="col-md-5">
-			<img class="col-xs-4" src="images/vertebra-humana-icono.png" alt="Vertebra humana en dorado">
+			<img class="col-xs-4" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/vertebra-humana-icono.png" alt="Vertebra humana en dorado">
 			<div class="col-md-8 no-padding" data-aos="fade-left">
 				<h3 class="title mart-30">¡DILE ADIÓS AL DOLOR!</h3>
 				<h1 class="subtitle">LA SALUD DE TU COLUMNA SIN CIRUGÍAS ES POSIBLE CON</h1>
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div class="col-md-7">
-			<img class="full" src="images/spinemed.png" alt="mujer recibiendo terapia cervical.">
+			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/spinemed.png" alt="mujer recibiendo terapia cervical.">
 		</div>
 	</div>
 </div>
@@ -61,7 +61,7 @@
 			<h2 class="gold-title">Nuestros Médicos</h2>
 			<div class="col-xs-12 col-sm-4" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-sine">
 				<div class="cards">
-					<img class="col-xs-4 col-sm-12 col-md-4" src="images/icon-doctor.jpg" alt="icono de doctor baños">
+					<img class="col-xs-4 col-sm-12 col-md-4" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/icon-doctor.jpg" alt="icono de doctor baños">
 					<div class="col-xs-8 col-sm-12 col-md-8">
 						<h3>Dr. Armando Baños Alvarez</h3>
 						<h4>Médico Quiropráctico</h4>
@@ -72,7 +72,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-4" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in-sine">
 				<div class="cards">
-					<img class="col-xs-4 col-sm-12 col-md-4" src="images/icon-nutriologa.jpg" alt="icono de nutriologa Fabiola">
+					<img class="col-xs-4 col-sm-12 col-md-4" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/icon-nutriologa.jpg" alt="icono de nutriologa Fabiola">
 					<div class="col-xs-8 col-sm-12 col-md-8">
 						<h3>Lic. Fabiola Martínez Fregozo</h3>
 						<h4>Licenciada en Nutrición</h4>
@@ -83,7 +83,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-4" data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine">
 				<div class="cards">
-					<img class="col-xs-4 col-sm-12 col-md-4" src="images/icon-doctor.jpg" alt="icono de doctor Bonifacio">
+					<img class="col-xs-4 col-sm-12 col-md-4" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/icon-doctor.jpg" alt="icono de doctor Bonifacio">
 					<div class="col-xs-8 col-sm-12 col-md-8">
 						<h3>Dr. Bonifacio Flores Ocampo</h3>
 						<h4>Médico Traumatólogo y Ortopedista</h4>
@@ -104,17 +104,17 @@
 <div class="container">
 	<div class="col-xs-12 col-md-8 col-md-offset-2 cont-white">
 		<div class="col-xs-12 col-sm-4 text-center" data-aos="fade-right" data-aos-duration="1000">
-			<img class="full" src="images/flexion-cama-icon.png" alt="Icono de ama de Flexion-distracción.">
+			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/flexion-cama-icon.png" alt="Icono de ama de Flexion-distracción.">
 			<h3 class="stitle">FLEXIÓN-DISTRACCIÓN</h3>
 			<a class="accent" href="spinemed.php">Leer Más</a>
 		</div>
 		<div class="col-xs-12 col-sm-4 text-center" data-aos="fade-down" data-aos-duration="1000">
-			<img class="full" src="images/ondas-de-choque-icon.png" alt="Icono de aparato ondas de choque.">
+			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/ondas-de-choque-icon.png" alt="Icono de aparato ondas de choque.">
 			<h3 class="stitle">ONDAS DE <br>CHOQUE</h3>
 			<a class="accent" href="tratamientos.php">Leer Más</a>
 		</div>
 		<div class="col-xs-12 col-sm-4 text-center" data-aos="fade-left" data-aos-duration="1000">
-			<img class="full" src="images/spinemed-icon.png" alt="icono de cama SPINEMED.">
+			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/spinemed-icon.png" alt="icono de cama SPINEMED.">
 			<h3 class="stitle">SPINEMED <br>DESCOMPRESIÓN</h3>
 			<a class="accent" href="spinemed.php">Leer Más</a>
 		</div>

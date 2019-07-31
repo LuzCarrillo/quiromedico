@@ -45,7 +45,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="index.php">
-					<img class="full" src="images/quiromedico-logo.png" alt="QuieroMédico">
+					<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/quiromedico-logo.png" alt="QuieroMédico">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
