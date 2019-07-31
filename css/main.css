@@ -1,0 +1,985 @@
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Medium.ttf);
+	font-weight: 400;
+}
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Book.ttf);
+	font-weight: 300;
+}
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Bold.ttf);
+	font-weight: 500;
+}
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Black.ttf);
+	font-weight: 700;
+}
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Ultra.ttf);
+	font-weight: 900;
+}
+html {
+	font-family: 'Gotham';
+	color: #666;
+	overflow-x: hidden;
+}
+body {
+	overflow-x: hidden;
+}
+p {
+	font-family: 'Lato';
+	color: #666;
+}
+.carousel {
+	height: auto;
+}
+.sh {
+	min-height: 550px;
+}
+.top-space {
+	margin-top: 80px;
+}
+.lato {
+	font-family: 'Lato';
+	color: #666;
+}
+.no-margin {
+	margin: 0 !important;
+}
+.no-padding {
+	padding: 0;
+}
+.py-3 {
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+.marb-20 {
+	margin-bottom: 20px !important;
+}
+.mart-30 {
+	margin-top: 30px;
+}
+.mart-20 {
+	margin-top: 20px;
+}
+.mart-10 {
+	margin-top: 10px;
+}
+.full {
+	width: 100%;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.display-true {
+	display: inline-block;
+}
+.white {
+	color: #FFF;
+}
+.navbar-brand {
+	padding: 1px 15px;
+	width: 190px;
+}
+.legales {
+	font-size: 11px;
+	color: #666;
+	text-align: justify;
+}
+.navbar-white {
+	background-color: rgba(255,255,255,.9);
+	border-bottom: 2px solid #d3b629;
+	margin: 0;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index:2;
+	margin-bottom: 0px !important;
+	transition: .2s;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.28);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.28);
+}
+/*.active {
+	top: 0px;
+	transition: .1s;
+}*/
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: #d3b629;;
+	border-color: transparent;
+	color: #fff;
+}
+.navbar li a {
+	color: #8f2844;
+	font-weight: bolder;
+	text-transform: uppercase;
+	transition: .2s;
+}
+.green {
+	 color: #5dc94c !important;
+}
+.green:hover, .green:focus, .green:active {
+	 color: #fff !important;
+	 background-color: #5dc94c !important;
+}
+.circule {
+	border: 1px solid #fff;
+	background: #5dc94c;
+	padding: 5px;
+	border-radius: 50%;
+	font-size: 6px;
+	color: #fff;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.nav>li>a:focus, .nav>li>a:hover, .nav>li>a:active {
+	color: #fff;
+	background-color: #d3b629;
+	transition: .3s;
+}
+.navbar-toggle .icon-bar {
+	background: #8f2844;
+}
+.head {
+	width: 100%;
+	display: inline-block;
+	background-color: #d3b629;
+	color: #fff;
+	padding: 0px 15px;
+}
+.icons-head {
+	width: 15px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	line-height: 16px;
+}
+.btn-accent {
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #8f2844;
+	background: #8f2844;
+	color: #fff;
+	padding: 10px 20px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin: 10px auto;
+	font-weight: 700;
+	transition: .3s;
+}
+.btn-accent:hover {
+	background: #fff;
+	color: #8f2844;
+	transition: .3s;
+}
+.btn-agenda {
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #8f2844;
+	background: #8f2844;
+	color: #fff;
+	padding: 10px 20px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin: 10px auto;
+	font-weight: 700;
+	width: 100%;
+	transition: .3s;
+}
+.btn-agenda:hover {
+	background: #fff;
+	color: #8f2844;
+	transition: .3s;
+}
+.btn-horarios {
+	display: inline-block;
+	float: left;
+	border: 1px solid #8f2844;
+	background: #8f2844;
+	color: #fff;
+	padding: 5px 20px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin: 10px;
+	font-weight: 700;
+	transition: .3s;
+}
+.btn-horarios:hover {
+	background: #fff;
+	color: #8f2844;
+	transition: .3s;
+}
+.btn-agendar {
+	border: 1px solid #8f2844;
+	background: #8f2844;
+	color: #fff;
+	padding: 10px 20px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin: 10px auto;
+	font-weight: 700;
+	transition: .3s;
+	float: right;
+	position: absolute;
+	right: 10px;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+.btn-agendar:hover {
+	background: #fff;
+	color: #8f2844;
+	transition: .3s;
+}
+.accent {
+	color: #d3b629;
+	text-decoration: underline;
+	font-weight: 900;
+	font-size: 18px;
+	transition: .3s;
+}
+.accent:hover {
+	color: #ccc;
+	transition: .3s;
+}
+.just-red {
+	color: #8f2844;
+}
+.just-gold {
+	color: #d3b629;
+}
+.title {
+	font-weight: 700;
+	color: #666;
+	font-size: 24px;
+	font-family: 'Gotham';
+}
+.subtitle {
+	font-weight: 400;
+	color: #666;
+	font-size: 24px;
+	margin: 0;
+	font-family: 'Gotham';
+}
+.title-accent {
+	font-weight: 900;
+	color: #8f2844;
+	font-size: 26px;
+	margin-top: 0;
+	font-family: 'Gotham';
+}
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 7px solid #666;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	float: left;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.cont-spine {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	float: left;
+	background-image: url(../images/fondo-circulos.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-position: left;
+}
+.cont-grey {
+	float: left;
+	width: 100%;
+	background: #efefef;
+	padding: 50px 0px 70px;
+	background-image: url('../images/linea-dorada.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.gold-title {
+	color: #d3b629;
+	font-weight: 900;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-family: 'Gotham';
+}
+.gold-title	span {
+	font-size: 16px;
+	letter-spacing: 4px;
+	color: #a08a1c;
+}
+.cards {
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	float: left;
+	padding: 30px 15px 30px 30px;
+	color: #666;
+	-webkit-box-shadow: 2px 2px 17px 1px rgba(102,102,102,0.44);
+	-moz-box-shadow: 2px 2px 17px 1px rgba(102,102,102,0.44);
+	box-shadow: 2px 2px 17px 1px rgba(102,102,102,0.44);
+}
+.cards img {
+	/*border: 3px solid #ccc;*/
+	padding: 0;
+}
+.cards h3 {
+	font-family: 'Gotham';
+	margin: 0;
+	font-size: 15px;
+	color: #8f2844;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.cards h4 {
+	font-family: 'Lato';
+	margin: 0;
+	font-size: 12px;
+	color: #666;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.cards a {
+	color: #8f2844;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: .2s;
+}
+.cards a:hover {
+	color: #666;
+	transition: .2s;
+}
+.parallax-home {
+	font-family: 'Gotham';
+	font-weight: 300;
+	margin-top: 50px;
+	background-image: url(../images/vertebras-espalda.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	float: left;
+}
+.cont-red {
+	width: 100%;
+	background-color: rgba(138, 0, 37, 0.70);
+	float: left;
+	text-align: center;
+	color: #fff;
+	padding: 90px 15px;
+}
+.cont-red h3 {
+	font-family: 'Gotham';
+	font-weight: 300;
+}
+.cont-red a {
+	font-family: 'Gotham';
+	font-weight: 500;
+}
+.parallax-home::before {
+	content: "";
+	width: 100%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.65);
+	display: inline-block;
+	margin-bottom: -5px;
+}
+.parallax-home::after {
+	content: "";
+	width: 100%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.65);
+	display: inline-block;
+	margin-bottom: -5px;
+}
+.cont-white {
+	padding: 50px 0px;
+}
+.stitle {
+	color: #666;
+	font-weight: 900;
+	font-size: 18px;
+}
+.testimonios {
+	background-color: #d3b629;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	padding: 50px 0px;
+}
+.testimonios h2 {
+	font-family: 'Gotham';
+	font-weight: 900;
+	letter-spacing: 8px;
+	font-size: 22px;
+}
+.carousel-caption {
+	font-family: 'Gotham';
+	font-weight: 300;
+	padding: 0 20px;
+	bottom: 0px !important;
+	position: initial;
+	background: #ac9422;
+	margin: 0 -15px;
+	text-shadow: none;
+}
+.Tvideo {
+	width: 100%;
+	border: 5px solid #ac9422;
+	margin-bottom: 15px;
+}
+footer {
+	margin-top: 20px;
+	padding: 50px 0px 40px;
+	background: #8f2844;
+	color: #fff;
+	font-size: 12px;
+}
+footer a {
+	color: #fff;
+	transition: .2s;
+}
+footer a:hover {
+	color: #d3b629;
+	transition: .2s;
+}
+.right {
+	float: right;
+}
+.item-footer {
+	padding: 0px 10px;
+}
+.ssl-icon {
+	width: auto;
+	height: 32px;
+	margin-right: 10px;
+}
+.sr-icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+.title-superaccent {
+	font-weight: 900;
+	color: #8f2844;
+	font-size: 38px;
+	margin-top: 30px;
+	font-family: 'Gotham';
+	line-height: 26px;
+}
+.subtitle-accent {
+	font-weight: 700;
+	color: #8f2844;
+	font-size: 26px;
+	margin-top: 8px;
+	font-family: 'Gotham';
+	text-transform: uppercase;
+}
+.title-tri {
+	color: #666;
+	font-size: 18px;
+	line-height: 0px;
+}
+.parralax-spinemed {
+	background-image: url(../images/estiramiento-columna-parralax.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	display: flex;
+	height: 300px;
+	margin-top: 50px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.parralax-spinemed h2 {
+	color: #fff;
+	font-family: Gotham;
+	font-weight: 300;
+	margin: 0;
+	font-size: 18px;
+}
+.parralax-spinemed h3 {
+	color: #8f2844;
+	font-family: Gotham;
+	font-weight: 700;
+	margin: 0;
+	font-size: 16px;
+}
+.back-strech {
+	background-image: url('../images/estiramiento-columna.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.back-quiro {
+	background-image: url('../images/quiropractico.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.back-nutri {
+	background-image: url('../images/nutriologa.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.back-trauma {
+	background-image: url('../images/traumatologo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.gold {
+	color: #d3b629;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 20px
+}
+.red {
+	font-size: 18px;
+	color: #8f2844;
+	font-weight: 600;
+	margin: 0;
+}
+.gold-list {
+	list-style-image: url('../images/disc.png');
+}
+.check-list {
+	list-style-image: url('../images/gold-check.png');
+}
+.bg-red {
+	background: #73142a;
+	color: #fff !important;
+	border-top: 3px solid #73142a;
+}
+.banner {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 290px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.banner-spinemed {
+	background-image: url(../images/vertebra-cervical.jpg);
+}
+.banner-somos {
+	background-image: url(../images/banner-somos.jpg);
+	background-position: center bottom;
+}
+.banner-tratamientos {
+	background-image: url(../images/banner-tratamientos.jpg);
+}
+.banner-quiropractico {
+	background-image: url(../images/banner-especialistas.jpg);
+}
+.banner-nutriologa {
+	background-image: url(../images/banner-especialistas.jpg);
+}
+.banner-traumatologo {
+	background-image: url(../images/banner-especialistas.jpg);
+}
+.banner-testimonios {
+	background-image: url(../images/banner-testimonios.jpg);
+}
+.banner-contacto {
+	background-image: url(../images/banner-contacto.jpg);
+}
+.banner-calendario {
+	background-image: url(../images/banner-calendario.jpg);
+}
+.title-inteior	{
+	text-align: center;
+	background: rgba(0,0,0,.7);
+	padding: 20px 30px;
+}
+.title-inteior h1 {
+	margin: 0;
+	font-size: 35px;
+	color: #d3b629;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.title-inteior h2 {
+	margin: 0px;
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-family: lato;
+}
+.maps {
+	border-top: 3px solid #d3b629 !important;
+	width: 100%;
+	height: 350px;
+}
+.contacto {
+	color: #666;
+}
+.contacto strong {
+	color: #d3b629;
+	font-size: 18px;
+}
+.contacto h4 {
+	margin: 0;
+	font-weight: 900;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+a {
+	color: #8f2844;
+}
+.inputContacto {
+	width: 100%;
+	border: 1px solid #d3b629;
+	padding: 10px 15px;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.cardT {
+	background-color: #f1f1f1;
+	padding: 15px;
+	margin-top: -3px;
+	margin-bottom: 20px;
+	display: inline-block;
+	height: 350px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.44);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.44);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.44);
+}
+.cardT h3 {
+	text-transform: uppercase;
+	margin-top: 5px;
+	color: #8f2844;
+	font-weight: 700;
+	font-size: 19px;
+	text-align: center;
+}
+.cardTA {
+	background-color: #f1f1f1;
+	padding: 15px;
+	margin-top: 20px;
+	display: inline-block;
+	height: 130px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.44);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.44);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.44);
+}
+.cardTA h3 {
+	text-transform: uppercase;
+	margin: 0px;
+	color: #8f2844;
+	font-weight: 700;
+	font-size: 17px;
+	text-align: center;
+}
+.cardTA p {
+	margin-bottom: 0;
+}
+.icon-serv {
+	width: 50px;
+	height: auto;
+	float: left;
+	margin-right: 15px;
+}
+.panel-default {
+	border-color: transparent;
+}
+.panel-default>.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #d3b629;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.28);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.28);
+}
+.panel-collapse {
+	background-color: rgb(241, 241, 241);
+}
+.parallax-somos {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-image: url(../images/parallax-somos.jpg);
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 20px 0;
+}
+.parallax-somos p {
+	color: #fff;
+	padding: 0px 18px;
+	font-weight: 100; 
+	font-family: 'Gotham';
+	text-indent: -10px;
+}
+.parallax-somos h2 {
+	padding: 0px 35px;
+}
+.parralax-quiro {
+	background-image: url(../images/parallax-somos.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	display: flex;
+	height: 150px;
+	margin: 20px 0 50px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.parralax-quiro h2 {
+	color: #fff;
+	font-family: Gotham;
+	font-weight: 300;
+	margin: 0;
+	font-size: 18px;
+}
+.parralax-quiro h3 {
+	color: #8f2844;
+	font-family: Gotham;
+	font-weight: 700;
+	margin: 0;
+	font-size: 16px;
+}
+.input-group-addon {
+	background-color: #d3b629;
+	border: 0;
+}
+.datepicker-inline {
+	margin: 0 auto;
+}
+input#nombreReserva, input#emailReserva, input#telefonoReserva, input#comentariosReserva {
+	z-index: 1;
+}
+#cookieButton {
+	display: none;
+}
+#cookieButton:checked + #cookieBar {
+	bottom: -100%;
+}
+#cookieBar {
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	background-color: #fff;
+	border-top: 5px solid #A40000;
+	transition: 1s ease;
+	-webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+}
+.btn-cookie {
+	color: #8f2844;
+	margin-left: 15px;
+	transition: .1s;
+	cursor: pointer;
+}
+.btn-cookie:hover {
+	color: #d3b629;
+	transition: .1s;
+}
+@media (max-width: 1024px) {
+	.navbar-brand {
+		padding: 10px 0;
+		width: 110px;
+	}
+	.navbar li a {
+		font-size: 13px;
+	}
+	.title {
+		font-size: 20px;
+	}
+	.subtitle {
+		font-size: 17px;
+	}
+	.title-accent {
+		font-size: 23px;
+	}
+}
+@media (max-width: 768px) {
+	.navbar li a {
+		font-size: 10px;
+	}
+	.nav>li>a {
+		padding: 15px 10px;
+	}
+	.parallax-somos {
+		padding-top: 10px;
+	}
+	.cardT {
+		height: auto;
+	}
+	.parralax-spinemed {
+		height: 130px;
+		margin-top: 10px;
+	}
+	.parralax-spinemed {
+		padding: 20px 10px;
+		margin-top: 0px;
+	}
+	.back-strech {
+		background-image: none;
+	}
+	footer {
+		margin-top: 0px;
+		padding: 10px 0px;
+	}
+	h3 {
+		font-size: 17px;
+	}
+}
+@media (max-width: 550px) {
+	footer a {
+		padding: 5px !important;
+		float: left;
+	}
+	footer span {
+		padding: 5px !important;
+		float: left;
+	}
+	footer .container {
+		padding-right: 120px;
+	}
+	footer {
+		margin-top: 0px;
+		padding: 20px 0px 10px;
+	}
+	.glymov {
+		top: -2px;
+	}
+	.cards {
+		padding: 15px 10px;
+		margin-top: 20px;
+	}
+	.banner {
+		height: 180px;
+		align-items: flex-end;
+		margin-top: 50px;
+		padding-bottom: 20px;
+	}
+	.back-quiro {
+		background-image: none;
+	}
+	.back-nutri {
+		background-image: none;
+	}
+	.back-trauma {
+		background-image: none;
+	}
+	.parralax-spinemed {
+		height: 120px;
+	}
+	.parallax-somos {
+		display: inline-block;
+		height: auto;
+		padding: 10px;
+	}
+	.title-inteior h1 {
+		font-size: 22px;
+	}
+	.title-inteior h2 {
+		font-size: 13px;
+	}
+	.title-superaccent {
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	.red {
+		font-size: 13px;
+	}
+	.gold-title {
+		letter-spacing: 3px;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.gold {
+		font-size: 14px;
+		text-align: center;
+	}
+	.subtitle-accent {
+		font-size: 18px;
+		text-align: center;
+	}
+	.maps {
+		height: 200px;
+	}
+	.inputContacto {
+		margin-top: 10px;
+	}
+	input#nombreReserva, input#emailReserva, input#telefonoReserva, input#comentariosReserva {
+		margin-top: 0;
+	}
+	.banner-spinemed {
+		padding: 65px 0px 10px;
+	}
+	.check-list{
+		padding-left: 10px;
+	}
+	.gold-list {
+		padding-left: 10px;
+	}
+	.cont-spine {
+		padding-top: 0px;
+	}
+	.cards {
+		margin-bottom: 10px;
+		-webkit-box-shadow: 1px 1px 2px 1px rgba(102,102,102,0.2);
+		-moz-box-shadow: 1px 1px 2px 1px rgba(102,102,102,0.2);
+		box-shadow: 1px 1px 2px 1px rgba(102,102,102,0.2);
+	}
+	.cont-red {
+		padding: 20px 15px;
+	}
+	.parallax-home::before {
+		height: 20px;
+	}
+	.parallax-home::after {
+		height: 20px;
+	}
+	.mart-sm {
+		margin-top: 53px;
+	}
+	.cont-white {
+		padding: 10px 0px;
+	}
+}

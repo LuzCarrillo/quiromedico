@@ -1,0 +1,14 @@
+<?php include('header.php') ;?>
+<title>Aviso de Privacidad</title>
+<div class="container top-space">
+	<h2 class="title-superaccent text-center" data-aos="zoom-in">Aviso de privacidad <br><span class="glyphicon glyphicon-triangle-bottom title-tri" aria-hidden="true"></span></h2>
+	<p>Con fundamento en los artículos 15 y 16 de la Ley Federal de Protección de Datos Personales en posesión de particulares, hacemos de su conocimiento que Médico Quiropráctico (razón social: Armando Baños Álvarez RFC BAAA650723198), con Domicilio Calle Allende # 318 Col. Centro, Pachuca, Hidalgo, México, CP 42000., es responsable de la protección y uso que se le dé a los datos personales que se recaben como consecuencia de la relación comercial que se establezca con clientes, prospectos, acreedores, o algún otro que resulte del intercambio de negocios, compra venta de productos y servicios o de contacto en los diferente foros donde se promueva o publique como empresa.</p>
+	<p>La información que Médico Quiropráctico recabe será utilizado única y exclusivamente para fines de facturación, prospección o de proporcionar información acerca de: consultas y servicios, promociones, ofertas, invitaciones; esto, a través de los medios de comunicación, tales como: teléfono, internet, sistemas de correo electrónico o postal u otro tipo de notificación o información sobre sus productos y servicios que esté relacionada con la empresa.</p>
+	<p>Para los fines antes mencionados Médico Quiropráctico, podría obtener datos como:
+	<br>Nombre completo.
+	<br>Correo electrónico.
+	<br>Teléfono.</p>
+	<p>Médico Quiropráctico, reconoce el derecho al acceso, rectificación y cancelación de sus datos de la o de las personas que tiene registrada (s) en sus bases; asimismo, de oponerse al tratamiento de dicha información y a revocar el consentimiento que para los fines antes dichos se hayan otorgado. Para ello, es necesario que envíe una solicitud de cancelación o revocación, dirigida al Torre de Consultorios 2° Piso del Hospital de Santa Mónica en su domicilio de Temístocles #210 Col. Polanco, México, D. F. o Calle Allende No 318 Col. Centro, Pachuca, Hidalgo. En los términos que marca la Ley en su artículo 29 de la Ley Federal de Protección de Datos Personales en los teléfonos <a href="tel:5552192671">(55) 5219 2671</a>, <a href="tel:5552192672">(55) 5219 2672</a> y <a href="tel:7717152710">(771) 715 2710</p>, <a href="tel:7717153299">(771) 715 3299</a>, o bien, se comunique al correo electrónico <a href="mailto:armandobanos@alvarez.com.mx">armandobanos@alvarez.com.mx</a>.</p>
+	<p>En caso de no estar de acuerdo en recibir mensajes promocionales de nuestra parte, puede enviarnos su solicitud de cancelación de nuestras listas de contactos al correo electrónico armandobanos@alvarez.com.mx y cualquier modificación a nuestro aviso de privacidad podrá consultarlo en nuestra página <a href="www.quiromedico.com"></a> www.quiromedico.com</p>
+</div>
+<?php include('footer.php') ;?>
