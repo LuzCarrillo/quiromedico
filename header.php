@@ -1,26 +1,25 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	
 	<meta name="robots" content="index, follow">
 	<meta charset="UTF-8">
 	<meta name="author" content="Milcar">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" href="images/favicon-quiromedico1.png">
-	<link href="https://github.com/LuzCarrillo/quiromedico/blob/master/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
-	<link href="https://github.com/LuzCarrillo/quiromedico/blob/master/css/formValidation.min.css" rel="stylesheet" />
+	<link href="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+	<link href="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/css/formValidation.min.css" rel="stylesheet" />
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://github.com/LuzCarrillo/quiromedico/blob/master/css/main.css">
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/css/main.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
-	<script src="https://github.com/LuzCarrillo/quiromedico/blob/master/js/bootstrap-datepicker.min.js"></script>
-	<script src="https://github.com/LuzCarrillo/quiromedico/blob/master/js/bootstrap-datepicker.es.min.js"></script>
-	<script src="https://github.com/LuzCarrillo/quiromedico/blob/master/js/bootstrapvalidator.min.js"></script>
+	<script src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/js/bootstrap-datepicker.min.js"></script>
+	<script src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/js/bootstrap-datepicker.es.min.js"></script>
+	<script src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/js/bootstrapvalidator.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	<script src="https://github.com/LuzCarrillo/quiromedico/blob/master/js//main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/js/main.js"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
