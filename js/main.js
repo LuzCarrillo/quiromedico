@@ -44,6 +44,7 @@ obtenTipoCita(100, function () {
 	$('#agendaCitaBtn').hide();
 	tipoCitasApiString = JSON.parse(this.responseText);
 	creaTipoCitas(tipoCitasApiString);
+
 	$('#datepickerAgendaCitas').datepicker({ todayBtn: "linked", language: "es", autoclose: true, format: "yyyy-mm-dd", todayHighlight: true, calendarWeeks: true });
 });
 }
