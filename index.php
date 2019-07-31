@@ -22,7 +22,7 @@
 			</a>
 		</div>
 		<div class="item full">
-			<a href="spinemed.php">
+			<a href="maquina-de-descompresion.php">
 				<img class="hidden-xs hidden-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-spinemed.jpg" alt="Con SpineMED puedes evitar cirugías cervicales y lumbares.">
 				<img class="visible-xs visible-sm full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/banner-spinemed-xs.jpg" alt="Con SpineMED puedes evitar cirugías cervicales y lumbares mobile.">
 			</a>
@@ -47,7 +47,7 @@
 				<h2 class="title-accent"><div class="triangulo"></div> SpineMED</h2>
 				<p>En QuiroMédico encontrarás servicios médicos altamente especializados para tratar padecimientos y enfermedades de la columna vertebral. Contamos con equipo de última generación único en México, tal es el caso de SpineMED, una aparato de descompresión, cuya ingeniería y diseño es resultado de una década de experiencia.</p>
 				<p>Ha resultado altamente efectiva en el tratamiento de hernias de disco y en enfermedad inflamatoria de las articulaciones (facetitis). Un gran número de candidatos a este tratamiento han evitado la cirugía cervical y lumbar…</p>
-				<a class="btn-accent mart-10" href="spinemed.php">Leer más</a>
+				<a class="btn-accent mart-10" href="maquina-de-descompresion.php">Leer más</a>
 			</div>
 		</div>
 		<div class="col-md-7">
@@ -106,7 +106,7 @@
 		<div class="col-xs-12 col-sm-4 text-center" data-aos="fade-right" data-aos-duration="1000">
 			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/flexion-cama-icon.png" alt="Icono de ama de Flexion-distracción.">
 			<h3 class="stitle">FLEXIÓN-DISTRACCIÓN</h3>
-			<a class="accent" href="spinemed.php">Leer Más</a>
+			<a class="accent" href="maquina-de-descompresion.php">Leer Más</a>
 		</div>
 		<div class="col-xs-12 col-sm-4 text-center" data-aos="fade-down" data-aos-duration="1000">
 			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/ondas-de-choque-icon.png" alt="Icono de aparato ondas de choque.">
@@ -116,7 +116,7 @@
 		<div class="col-xs-12 col-sm-4 text-center" data-aos="fade-left" data-aos-duration="1000">
 			<img class="full" src="https://raw.githubusercontent.com/LuzCarrillo/quiromedico/master/images/spinemed-icon.png" alt="icono de cama SPINEMED.">
 			<h3 class="stitle">SPINEMED <br>DESCOMPRESIÓN</h3>
-			<a class="accent" href="spinemed.php">Leer Más</a>
+			<a class="accent" href="maquina-de-descompresion.php">Leer Más</a>
 		</div>
 	</div>
 </div>

@@ -52,7 +52,7 @@
 				<ul class="nav navbar-nav navbar-right navbar">
 					<li><a href="quienes-somos.php">SOMOS</a></li>
 					<li><a href="testimonios.php">TESTIMONIOS</a></li>
-					<li><a href="spinemed.php">SPINEMED</a></li>
+					<li><a href="maquina-de-descompresion.php">SPINEMED</a></li>
 					<li><a href="tratamientos.php">TRATAMIENTOS</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
